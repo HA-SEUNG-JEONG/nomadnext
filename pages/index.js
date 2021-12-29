@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="active">Hi</h1>
+      <h1 className="active">Hello</h1>
     </div>
   );
 }
