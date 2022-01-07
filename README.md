@@ -23,3 +23,5 @@ Homepage가 results를 props로 받으면 getServerSideProps는 results를 retur
 getServerSideProps function에서는 '`/api/movies`'가 front쪽에서만 돌아가기 때문에 오류가 난다.
 
 따라서 로컬호스트 주소를 앞에 추가해준다.
+
+`pages/movies/[id].js`처럼 Next.js에게 id가 변수를 포함하는 Dynamic URL이다라고 알려주는 유일한 방법은 id에 []를 추가한다.
